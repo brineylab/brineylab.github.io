@@ -1,0 +1,13 @@
+github_users:
+  - brineylab
+  - alshedivat
+
+repo_description_lines_max: 2
+
+github_repos:
+  - brineylab/BALM
+  - brineylab/abstar
+  - brineylab/abutils
+  - brineylab/scab
+  - brineylab/pairplex
+  - brineylab/mabmaker
