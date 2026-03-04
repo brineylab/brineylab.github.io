@@ -856,6 +856,12 @@ footer.sticky-bottom {
         }
       }
 
+      .altmetric-badge-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.25rem;
+      }
+
       .title {
         font-weight: 600;
       }
