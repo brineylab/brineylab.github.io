@@ -56,6 +56,26 @@ table.table a {
   }
 }
 
+// Inline text links: dashed underline for links within body content
+#markdown-content a,
+.post > article > .clearfix a,
+.post > article > p a,
+.post > article > ul:not(.post-list) a,
+.post > article > ol a,
+.post > article > blockquote a,
+.news td a:not(.news-title),
+.post > header .desc a {
+  color: var(--global-text-color);
+  border-bottom: 1px dashed var(--global-text-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-text-color-light);
+    border-bottom-color: var(--global-text-color-light);
+    text-decoration: none;
+  }
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
@@ -877,18 +897,17 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
         }
 
         > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color);
           cursor: pointer;
 
           &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+            color: var(--global-text-color-light);
+            border-bottom: 1px dashed var(--global-text-color-light);
           }
         }
       }
