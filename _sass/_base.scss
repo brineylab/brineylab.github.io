@@ -894,6 +894,7 @@ footer.sticky-bottom {
       }
 
       .links {
+        margin-top: 0.5rem;
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -908,6 +909,12 @@ footer.sticky-bottom {
 
           &:hover {
             color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
+          }
+
+          &.active {
+            color: white;
+            background-color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
         }
@@ -965,6 +972,8 @@ footer.sticky-bottom {
 
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
+        border-radius: 0.375rem;
+        margin-top: 0.5rem;
       }
 
       div.abstract.hidden.open {
