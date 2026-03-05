@@ -63,8 +63,7 @@ table.table a {
 .post > article > ul:not(.post-list) a,
 .post > article > ol a,
 .post > article > blockquote a,
-.news td a:not(.news-title),
-.post > header .desc a {
+.news td a:not(.news-title) {
   color: var(--global-text-color);
   border-bottom: 1px dashed var(--global-text-color);
   text-decoration: none;
