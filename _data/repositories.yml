@@ -1,13 +1,24 @@
 github_users:
   - brineylab
-  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - brineylab/BALM
-  - brineylab/abstar
-  - brineylab/abutils
-  - brineylab/scab
-  - brineylab/pairplex
-  - brineylab/mabmaker
+  - name: brineylab/BALM
+    description: "Baseline antibody language model for sequence analysis and design"
+    language: Python
+  - name: brineylab/abstar
+    description: "VDJ assignment and antibody sequence annotation, scalable from a single sequence to billions"
+    language: Python
+  - name: brineylab/abutils
+    description: "Core utilities for antibody sequence analysis"
+    language: Python
+  - name: brineylab/scab
+    description: "Single-cell antibody analysis and visualization"
+    language: Python
+  - name: brineylab/pairplex
+    description: "Paired antibody repertoire analysis"
+    language: Python
+  - name: brineylab/mabmaker
+    description: "Monoclonal antibody design and engineering"
+    language: Python
